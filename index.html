@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="myForm">
+    <div class="left-part">
+      <label for="expression">Expression</label>
+      <input type="text" name="expression" id="expression" />
+    </div>
+    <div class="right-part">
+        <input type="radio" id="prefix expressionType" name="expressionType" value="infixToPrefix" />  
+      <label for="prefix">Infix To Prefix</label><br />
+       
+      <input type="radio" id="postfix expressionType" name="expressionType" value="infixToPostfix" />
+        <label for="postfix">Infix To Postfix</label><br />
+
+      
+        <input type="radio" id="prefix expressionType" name="expressionType" value="prefixToPostfix" />  
+      <label for="prefix">prefixToPostfix</label><br />
+       
+      <input type="radio" id="postfix expressionType" name="expressionType" value="prefixToInfix" />
+        <label for="postfix">prefixToInfix</label><br />
+
+
+
+        <input type="radio" id="prefix expressionType" name="expressionType" value="postfixToprefix" />  
+      <label for="prefix">postfixToprefix</label><br />
+       
+      <input type="radio" id="postfix expressionType" name="expressionType" value="postfixToInfix" />
+        <label for="postfix">postfixToInfix</label><br />
+    </div>
+      <br />
+
+      <button type="button" id="button">Submit</button>
+    </form>
+
+    <div id="result">
+      
+    </div>
+    <script src="./scipt.js">
+    </script>
+  </body>
+</html>
